@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            tsi
 tagline:          'developer. designer. tech enthusiast.'
-description:	  'thesaadismail'
+description:	  '<font color="lightgray">developer.</font> <font color="gray">designer.</font> <font color="darkgray">tech enthusiast.</font>'
 url:              http://thesaadismail.github.io
 paginate:         1
 baseurl:          /
