@@ -6,8 +6,9 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            thesaadismail
-tagline:          developer. designer. tech enthusiast.
+title:            tsi
+tagline:          'developer. designer. tech enthusiast.'
+description:	  'thesaadismail'
 url:              http://thesaadismail.github.io
 paginate:         1
 baseurl:          /
@@ -17,6 +18,7 @@ author:
   email:          noemail@noemail.com
 
 # Custom vars
+archiveurl:	  /archive/
 version:          1.0.0
 github:
   repo:           https://github.com/thesaadismail/thesaadismail.github.io
