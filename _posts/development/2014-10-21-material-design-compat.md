@@ -5,7 +5,7 @@ title: Android 5.0 Compat Libraries
 
 ![My helpful screenshot]({{ site.url }}/resources/images/layout_structure_toolbars1.png)
 
-Many Android developers have been itching to get their hands on Android 5.0 compatibility libraries to integrate it into their applications. I have gotten the chance to integrate it into Spottr (a data usage monitoring application). In this post I will discuss my process of integrating Material Design and the items that the app compatiblity has to offer.
+Many Android developers have been itching to get their hands on Android 5.0 compatibility libraries to integrate it into their applications. I am working on integrating it into [Spottr](http://getspottr.com) (a data usage monitoring application). In this post I will discuss my process of integrating Material Design and the items that the app compatiblity libraries have to offer.
 
 ### Integrating Compatibility Libraries
 
