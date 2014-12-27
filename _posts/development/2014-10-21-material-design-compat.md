@@ -161,11 +161,13 @@ Our Toolbar Overflow Menu is currently white text on a black background. If we n
 
 Also, remember to specify the toolbar theme and the toolbar popup in your toolbar tag: 
 
+{% highlight xml %}
  <android.support.v7.widget.Toolbar
         xmlns:app="http://schemas.android.com/apk/res-auto"
         ...
         app:theme="@style/BaseToolbarStyle"
         app:popupTheme="@style/BaseToolbarPopupStyle"/>
+{%endhighlight %}
 
 ##### Accent Colors
 

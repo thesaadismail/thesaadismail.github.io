@@ -29,7 +29,7 @@ title: Categories
       {% for post in posts %}
       	{% assign url = post.url | strip_newlines %}
       	{% if url != "" %}
-        	<li><a href="{{ post.url }}">{{ post.title }}({{ post.url }})</a></li>
+        	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
       	{% endif %}
       {% endfor %}
     {% endfor %}
