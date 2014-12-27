@@ -1,0 +1,37 @@
+---
+layout: default
+title: Categories
+---
+<ul style="list-style: none; padding: 0; text-align: justify;" >
+{% for category in site.categories %}
+    <li style="display: inline-block; margin: 0 25px 25px 0; font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%">
+    	<!-- /categories/{{ category | first | slugize }}/ -->
+        <a href="#{{ category | first | slugize }}" style="background: #f1eef6;
+        border-radius: 2px;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        box-shadow: 1px 1px 2px #ccc;
+        -moz-box-shadow: 1px 1px 2px #ccc;
+        -webkit-box-shadow: 1px 1px 2px #ccc;
+        color: #888;
+        padding: 2px 8px 2px 8px;
+        text-decoration: none;">
+            {{ category | first }}
+        </a>
+    </li>
+{% endfor %}
+    </ul>
+
+{% for category in site.categories %}
+  <h3 id="{{ category | first }}"><!-- <a name="{{ category | first }}"> -->{{ category | first }}<!-- </a> --></h3>
+    <ul>
+    {% for posts in category %}
+      {% for post in posts %}
+      	{% assign url = post.url | strip_newlines %}
+      	{% if url != "" %}
+        	<li><a href="{{ post.url }}">{{ post.title }}({{ post.url }})</a></li>
+      	{% endif %}
+      {% endfor %}
+    {% endfor %}
+    </ul>
+{% endfor %}

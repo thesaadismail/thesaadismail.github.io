@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-categories: [sticky]
+categories: 
 ---
 
 I am a Mobile Developer **currently pursuing my Masters in Computer Science** (concentration: human computer interaction) at Georgia Tech. 

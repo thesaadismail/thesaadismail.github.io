@@ -11,7 +11,7 @@
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-      <a class="sidebar-nav-item{% if page.url == site.archiveurl %} active{% endif %}" href="{{ site.archiveurl }}">Archives</a>
+
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
@@ -25,9 +25,14 @@
           {% endif %}
         {% endif %}
       {% endfor %}
+      <br />
 
-      
-      <a class="sidebar-nav-item" href="/resources/resume/SaadIsmail-Resume-2014.pdf">Resume</a>  
+
+      <a class="sidebar-nav-item{% if page.url == site.archiveurl %} active{% endif %}" href="{{ site.archiveurl }}">All Posts</a>
+    <a class="sidebar-nav-item{% if page.url == site.categoriesurl %} active{% endif %}" href="{{ site.categoriesurl }}">Categories</a>
+
+      <br />
+      <a class="sidebar-nav-item" href="/resources/resume/SaadIsmail-Resume-2014.pdf">Resume</a>
       <a class="sidebar-nav-item" href="https://plus.google.com/+SaadIsmailM?rel=author">Google+ Profile</a>
       <a class="sidebar-nav-item" href="https://github.com/thesaadismail?tab=repositories">GitHub Account</a>
           <!--

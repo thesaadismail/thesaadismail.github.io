@@ -18,7 +18,8 @@ author:
   email:          noemail@noemail.com
 
 # Custom vars
-archiveurl:	  /archive/
+archiveurl:	  	  /archive/
+categoriesurl:	  /categories/
 version:          1.0.0
 github:
   repo:           https://github.com/thesaadismail/thesaadismail.github.io

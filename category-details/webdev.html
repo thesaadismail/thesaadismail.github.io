@@ -1,0 +1,8 @@
+---
+layout: default
+title: Web Dev
+---
+
+{% for post in site.categories['webdev'] %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}

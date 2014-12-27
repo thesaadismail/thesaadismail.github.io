@@ -1,0 +1,15 @@
+---
+layout: page
+title:
+categories: [sticky]
+---
+
+<ul style="list-style: none; padding: 0; text-align: justify;" >
+{% for category in site.categories %}
+    <li style="display: inline-block; font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%">
+        <a href="/{{ category | first | slugize }}/">
+            {{ category | first }}
+        </a>
+    </li>
+{% endfor %}
+    </ul>
