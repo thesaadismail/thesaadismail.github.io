@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Android 5.0 Compat Libraries
+categories: [android, mobile]
 ---
 
 ![My helpful screenshot]({{ site.url }}/resources/images/layout_structure_toolbars1.png)
